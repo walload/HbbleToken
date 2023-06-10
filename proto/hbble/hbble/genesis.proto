@@ -1,0 +1,12 @@
+syntax = "proto3";
+package walload.hbble.hbble;
+
+import "gogoproto/gogo.proto";
+import "hbble/hbble/params.proto";
+
+option go_package = "github.com/walload/hbble/x/hbble/types";
+
+// GenesisState defines the hbble module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}

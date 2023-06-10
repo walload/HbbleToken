@@ -1,0 +1,7 @@
+syntax = "proto3";
+package walload.hbble.hbble;
+
+option go_package = "github.com/walload/hbble/x/hbble/types";
+
+// Msg defines the Msg service.
+service Msg {}

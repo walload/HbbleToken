@@ -1,0 +1,12 @@
+syntax = "proto3";
+package walload.hbble.hbble;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/walload/hbble/x/hbble/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
